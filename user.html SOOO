@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8" />
+    </head>
+
+    <body>
+
+
+        <main class="page-center">
+            <div class="card">
+
+                <img class="avatar" src="user_profile.jpg" alt="User Picture">
+                 <button class="edit-btn" onclick="window.location.href='edit.html';" >Edit Profile</button>
+                
+                <button class="dm" onclick="window.location.href='chat.html';">
+                    <img src="chat-icon.png" alt="chat">
+                </button>
+
+                <h1 class="user-name">Soukaina Alwosaibae</h1>
+                <p class="user-collage"> KU - Computer Sience</p>
+            </div>
+        
+        </main>
+
+        
+        
+
+
+    </body>
