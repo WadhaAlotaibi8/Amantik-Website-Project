@@ -26,8 +26,8 @@
                     <img src="RED.jpeg" class="card-img-top" alt="Found Item">
                     <div class="card-body">
                         <h5 class="card-title">FOUND ITEM</h5>
-                        <p class="card-text">بوك طايح بعلاوم جنوبي صووب بيك لونه أحمر</p>
-                        <a href="e3lan.html" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text">بوك طايح بعلوم جنوبي صوب بيك لونه أحمر</p>
+                        <a href="found.html" class="btn btn-primary">More details</a>
                     </div>
                 </div>
             </div>
@@ -36,8 +36,8 @@
                     <img src="apm monaco.jpeg" class="card-img-top" alt="Lost Item">
                     <div class="card-body">
                         <h5 class="card-title">LOST ITEM</h5>
-                        <p class="card-text">خاتمي ضاع من APM بالهندسة شمالي</p>
-                        <a href="e3lan.html" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text"> i lost my APM ring please if u found it contact me</p>
+                        <a href="lost.html" class="btn btn-primary"> More details</a>
                     </div>
                 </div>
             </div>
