@@ -1,0 +1,120 @@
+// src/data/reportsDB.js
+const reportsDB = {
+  "Science": {
+    lost: [
+      {
+        id: 1,
+        title: "Lost Calculator",
+        description: "I lost my scientific calculator in Building 1.",
+        date: "2025-01-10"
+      },
+      {
+        id: 2,
+        title: "Lost Lab Coat",
+        description: "White lab coat missing near the laboratory entrance.",
+        date: "2025-01-18"
+      }
+    ],
+    found: [
+      {
+        id: 1,
+        title: "Found Glasses",
+        description: "A pair of glasses found near Building 3.",
+        date: "2025-01-12"
+      }
+    ]
+  },
+
+  "Engineering": {
+    lost: [
+      {
+        id: 1,
+        title: "Lost ID Card",
+        description: "Engineering ID card lost near the parking area.",
+        date: "2025-01-05"
+      }
+    ],
+    found: [
+      {
+        id: 1,
+        title: "Found USB",
+        description: "Black USB drive found in Room 204.",
+        date: "2025-01-20"
+      }
+    ]
+  },
+
+  "Law": {
+    lost: [
+      {
+        id: 1,
+        title: "Lost Notebook",
+        description: "A black notebook with case notes lost in the library.",
+        date: "2025-01-09"
+      }
+    ],
+    found: []
+  },
+
+  "Sharia": {
+    lost: [],
+    found: [
+      {
+        id: 1,
+        title: "Found Prayer Beads",
+        description: "Prayer beads (misbaha) found near the main entrance.",
+        date: "2025-01-14"
+      }
+    ]
+  },
+
+  "College of Social Science": {
+    lost: [
+      {
+        id: 1,
+        title: "Lost Wallet",
+        description: "Brown leather wallet with university ID inside.",
+        date: "2025-01-07"
+      }
+    ],
+    found: []
+  },
+
+  "Business": {
+    lost: [],
+    found: [
+      {
+        id: 1,
+        title: "Found Keys",
+        description: "Car keys found next to the college cafeteria.",
+        date: "2025-01-21"
+      }
+    ]
+  },
+
+  "Art": {
+    lost: [],
+    found: [
+      {
+        id: 1,
+        title: "Found Sketchbook",
+        description: "Sketchbook found inside the drawing studio.",
+        date: "2025-01-08"
+      }
+    ]
+  },
+
+  "Education": {
+    lost: [
+      {
+        id: 1,
+        title: "Lost Backpack",
+        description: "Black backpack lost near the main hall.",
+        date: "2025-01-17"
+      }
+    ],
+    found: []
+  }
+};
+
+export default reportsDB;

@@ -1,0 +1,47 @@
+/* Style for the form container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the form fields */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Style for the submit button */
+.btn-primary {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #1e4fc5;
+}
+
+/* Profile picture preview styling */
+.profile-img-preview {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Additional styling for cards */
+.card {
+    width: 18rem;
+    margin-top: 20px;
+}
+
+

@@ -1,0 +1,101 @@
+/* PAGE LAYOUT */
+.found-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f6fa;
+  padding-bottom: 40px;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.found-header {
+  width: 100%;
+  background: white;
+  padding: 18px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+.found-header h2 {
+  font-size: 22px;
+  margin: 0;
+  color: #003366;
+  font-weight: bold;
+}
+
+/* HEADER BUTTONS */
+.found-nav button {
+  margin-left: 10px;
+  padding: 7px 15px;
+  border: none;
+  background: #003366;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.found-nav button:hover {
+  background: #001f4d;
+}
+
+/* TITLE */
+.found-title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #003366;
+}
+
+/* FORM BOX */
+.found-form-box {
+  width: 55%;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* FORM ELEMENTS */
+.found-form-box label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #003366;
+}
+
+.found-form-box input,
+.found-form-box textarea {
+  width: 100%;
+  margin-top: 7px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccd4e0;
+  font-size: 15px;
+}
+
+.found-form-box textarea {
+  resize: none;
+}
+
+/* SUBMIT BUTTON */
+.submit-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #003366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #00264d;
+}
